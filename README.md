@@ -5,13 +5,13 @@ Keeping that aside this project was an eye-opener to various practices of coding
 
 Instructions to run this:
 
-Clone the repo
-Install ollama on your system and install gemma3: 12b or 7b model.
-Run main.py on the terminal
-Enter a link when prompted with "Enter a link to Scrape: " or "Enter a link: "
-It might take a while (roughly 5-7 minutes to summarize the cleaned DOM of the webpage you visit to scrape)
-If nothing is mentioned, it'll create a json output.
-That's it
+1. Clone the repo
+2. Install ollama on your system and install gemma3: 12b or 7b model.
+3. Run main.py on the terminal
+4. Enter a link when prompted with "Enter a link to Scrape: " or "Enter a link: "
+5. It might take a while (roughly 5-7 minutes to summarize the cleaned DOM of the webpage you visit to scrape)
+6. If nothing is mentioned, it'll create a json output.
+   
 Note: This is a project purely developed as a fun project via LLMs to compare which codes better off eachother (Supported by Samsung PRISM as well). We gave our respective inputs to fine tune the LLM and splitting the data into chunks rather than overfeeding the LLM. It taught me Version Control using git via command line, the true use of ignore file, prompt engineering (which is basically literature with steroids), and modularization of code after prepping a pipeline.
 
 Thanks for reading this. I hope you have a great time running this :)
